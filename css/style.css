@@ -1,0 +1,39 @@
+
+.header_area .main-menu .navbar .navbar-brand{
+  padding: 1.0rem;
+  margin: 0px;
+  font-size: 20px;
+}
+
+.header_area .main-menu .navbar{
+  padding: 0;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+  font: normal 500 15px/2px var(--roboto);
+  text-transform: uppercase;
+  padding: 1.0rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+  background:black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.site-main{
+  padding: 3.0rem;
+}
+.site-title{
+  align-items: center;
+  margin-top: 50px;
+}
+
